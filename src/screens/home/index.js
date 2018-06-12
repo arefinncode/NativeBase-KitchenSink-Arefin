@@ -32,6 +32,7 @@ class Home extends Component {
             <Button
               style={{ backgroundColor: "#6FAF98", alignSelf: "center" }}
               onPress={() => this.props.navigation.navigate("DrawerOpen")}
+              title="Will not be visible or rendered but added as required rule by arefin"
             >
               <Text>Lets Go!</Text>
             </Button>
@@ -41,5 +42,7 @@ class Home extends Component {
     );
   }
 }
+
+// contentComponent at src/App.js
 
 export default Home;
